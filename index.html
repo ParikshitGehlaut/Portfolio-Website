@@ -1,290 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Parikshit's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeBlog</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@400;700&display=swap"
-        rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: black;
-            color: white;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        nav {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            height: 75px;
-            background-color: white;
-            color: black;
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: center;
-
-        }
-
-        nav ul li {
-            list-style: none;
-            margin: 0 1.5vw;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: black;
-        }
-
-        nav ul li a:hover {
-            color: rgb(206, 69, 81);
-            font-style: italic;
-        }
-
-        main hr {
-            border: 0;
-            background: red;
-            height: 1.2px;
-            margin: 40px 84px;
-        }
-
-        .left {
-            font-size: 1.5rem;
-        }
-
-        .firstSection {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 120px 0;
-        }
-
-        .firstSection div {
-            width: 30%;
-        }
-
-        .leftSection {
-            font-size: 2.5rem;
-        }
-
-        .rightSection img {
-            width: 130%;
-            height: 100%;
-
-        }
-
-        .purple {
-            color: blueviolet;
-        }
-
-        #btn {
-            width: 125%;
-        }
-
-        #element {
-            width: 125%;
-            color: blueviolet;
-        }
-
-        .secondSection {
-            max-width: 80vw;
-            margin: auto;
-            height: 80vh;
-        }
-
-        .secondSection h1 {
-            font-size: 1.8rem;
-        }
-
-        .text-silver {
-            color: #c0c0c0c4;
-        }
-
-        .secondSection .box {
-            background-color: rgb(216, 82, 82);
-            color: azure;
-            width: 76vw;
-            height: 2px;
-            margin: 56px 0;
-            display: flex;
-
-        }
-
-        .secondSection .vertical {
-            height: 90px;
-            width: 1px;
-            background-color: rgb(216, 82, 82);
-            margin: 0 120px;
-        }
-
-        .image-top {
-            width: 32px;
-            height: auto;
-            position: relative;
-            top: -32px;
-            left: -9px;
-        }
-
-        .vertical-title {
-            position: relative;
-            top: 75px;
-            width: 150px;
-        }
-
-        .vertical-desc {
-            position: relative;
-            top: 86px;
-            color: #c0c0c0d8;
-            width: 150px;
-            font-size: 10px;
-        }
-
-
-        footer {
-            background-color: rgb(109, 8, 109);
-            font-family: 'Lato', sans-serif;
-            height: 150px;
-        }
-
-        .footer {
-            display: flex;
-            padding: 23px 122px;
-            justify-content: space-evenly;
-        }
-
-        .footer ul {
-            list-style: none;
-            display: flex;
-        }
-
-        .footer ul li {
-            margin: 0 2px;
-        }
-
-        .footer>div {
-            width: 150px;
-        }
-
-        footer .footer-center {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    </style>
-</head>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="left"><i>Parikshit's Portfolio</i></div>
-            <div class="right">
-                <ul>
-                    <li><b><a href="/">Home</a></b></li>
-                    <li><b><a href="/">About</a></b></li>
-                    <li><b><a href="/">Services</a></b></li>
-                    <li><b><a href="/">Contact Us</a></b></li>
-                </ul>
-            </div>
-
-        </nav>
+      <nav>
+        <div class="left"><i>Parikshit's Portfolio</i></div>
+        <div class="right">
+          <ul>
+            <li>
+              <b><a href="/">Home</a></b>
+            </li>
+            <li>
+              <b><a href="/">About</a></b>
+            </li>
+            <li>
+              <b><a href="/">Services</a></b>
+            </li>
+            <li>
+              <b><a href="/">Contact Us</a></b>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section class="firstSection">
-            <div class="leftSection">
-                Hi, my name is <span class="purple">Parikshit.</span>
-                <div id="btn">I am Passionate</div>
-                <span id="element"></span>
-            </div>
-            <div class="rightSection">
-                <img src="bg.png" alt="">
-            </div>
-        </section>
-        <hr>
-        <section class="secondSection">
-            <span class="text-silver">What I have done so far,</span>
-            <h1>Work Experince</h1>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, my name is <span class="purple">Parikshit.</span>
+          <div id="btn">I am Passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-silver">What I have done so far,</span>
+        <h1>Work Experince</h1>
 
-            <div class="box">
-                <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="">
-                    <div class="vertical-title">
-                        HTML developer(2010-2012)
-                    </div>
-                    <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </div>
-                </div>
-                <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="">
-                    <div class="vertical-title">
-                        Node.Js developer(2012-2014)
-                    </div>
-                    <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </div>
-                </div>
-                <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="">
-                    <div class="vertical-title">
-                        Data Scientist(2014-2018)
-                    </div>
-                    <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </div>
-                </div>
-                <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="">
-                    <div class="vertical-title">
-                        Ml Engineer(2018-present)
-                    </div>
-                    <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </div>
-                </div>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">DSA in C language</div>
+            <div class="vertical-desc">
+              I have learn all important data structures and various algorithm
+              using both Greedy approch and Dynamic Programming.
             </div>
-        </section>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">Python</div>
+            <div class="vertical-desc">
+              I have basic knowledge of Python and I have worked with advanced
+              libaries like Numpy and Matplotlib.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">Frontend Web Devlopment</div>
+            <div class="vertical-desc">
+              I have made various projects using Html, Css and Javascript like
+              snake game, Digital clock and this Portfolio website also.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">React</div>
+            <div class="vertical-desc">
+              Using React, I have made news webite "NewsMonkey" which uses
+              <i><b>api</b></i> to fetch really time news and text analyzing
+              website "TextUtilis"
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="footer">
-            <div class="footer-first">
-                <h3>
-                    Parikshit's Portfolio
-                </h3>
-            </div>
-            <div class="footer-second">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                </ul>
-            </div>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Parikshit's Portfolio</h3>
         </div>
-        <div class="footer-center">
-            www.parikshitportfolio.com | Copyright &#169; All rights reserved
+        <div class="footer-second">
+          <ul>
+            <li><i>Home</i></li>
+            <li><i>About</i></li>
+            <li><i>Services</i></li>
+          </ul>
         </div>
+      </div>
+      <div class="footer-center">
+        www.parikshitportfolio.com | Copyright &#169; All rights reserved
+      </div>
     </footer>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
-        var typed = new Typed('#element', {
-            strings: ["Web Developer", "Graphic Designer"],
-            typeSpeed: 40,
-        });
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Software Enigneer"],
+        typeSpeed: 40,
+      });
     </script>
-</body>
-
+  </body>
 </html>
