@@ -1,12 +1,15 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 * {
     margin: 0;
     padding: 0;
   }
 
   body {
-    background-color: black;
+    /* background-color: black; */
+    background: linear-gradient(rgb(34, 34, 84),black);
     color: white;
-    font-family: "Poppins", sans-serif;
+    font-family: "Lato", sans-serif;
   }
 
   nav {
@@ -14,9 +17,14 @@
     align-items: center;
     justify-content: space-around;
     height: 75px;
-    background-color: white;
-    color: black;
+    /* background-color: rgb(78, 9, 78); */
+    background: linear-gradient(rgb(105, 60, 147),rgb(212, 37, 67));
+    color: white;
   }
+
+nav .left{
+  cursor: pointer;
+}
 
   nav ul {
     display: flex;
@@ -30,11 +38,11 @@
 
   nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
 
   nav ul li a:hover {
-    color: rgb(206, 69, 81);
+    color: rgb(83, 69, 151);
     font-style: italic;
   }
 
@@ -135,14 +143,14 @@
   }
 
   footer {
-    background-color: rgb(109, 8, 109);
+    background-color: rgb(165, 53, 165);
     font-family: "Lato", sans-serif;
     height: 150px;
   }
 
   .footer {
     display: flex;
-    padding: 23px 122px;
+    padding: 23px 100px;
     justify-content: space-evenly;
   }
 
@@ -159,8 +167,50 @@
     width: 150px;
   }
 
+  footer .footer-first{
+    width: 172px;
+  }
   footer .footer-center {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  @media screen and (max-width: 1130px){
+    body{
+      /* background-color: red; */
+    }
+    nav{
+      flex-direction: column;
+    }
+    .firstSection{
+      flex-direction: column-reverse;
+    }
+    .box{
+      flex-direction: column;
+    }
+    .secondSection .vertical{
+      height: unset;
+    }
+    .vertical-desc, .vertical-title{
+      left: 45px;
+    }
+    .vertical-title{
+      top: -28px;
+    }
+    .vertical-desc{
+      top: -24px;
+    }
+
+    .secondSection .box{
+      width: 50vw;
+    }
+    .image-top{
+      top: 3px;
+      left: 8px;
+    }
+
+    footer{
+      display: none;
+    }
   }
