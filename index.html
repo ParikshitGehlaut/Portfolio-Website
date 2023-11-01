@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to Parikshit Gehlaut's Portfolio | Freelance Web Developer and Designer.With a passion for creating stunning, functional websites, I'm here to bring your online vision to life. Contact me today to discuss your next project"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Parikshit's Portfolio</title>
   </head>
@@ -14,16 +18,16 @@
         <div class="right">
           <ul>
             <li>
-              <b><a href="/">Home</a></b>
+              <b><a href="#Home">Home</a></b>
             </li>
             <li>
-              <b><a href="/">About</a></b>
+              <b><a href="#About">About</a></b>
             </li>
             <li>
-              <b><a href="/">Services</a></b>
+              <b><a href="#Services">Services</a></b>
             </li>
             <li>
-              <b><a href="/">Contact Us</a></b>
+              <b><a href="#services">Contact Us</a></b>
             </li>
           </ul>
         </div>
@@ -31,13 +35,25 @@
     </header>
 
     <main>
-      <section class="firstSection">
+      <section class="firstSection" id="Home">
         <div class="leftSection">
-          <div>
+          <div class="intro">
             Hi, my name is <span class="purple">Parikshit.</span>
             <div id="btn">I am Passionate</div>
             <span id="element"></span>
           </div>
+          <button
+            id="btn-github"
+            onclick="window.location.href = 'https://github.com/ParikshitGehlaut';"
+          >
+            Visit GitHub
+          </button>
+          <button
+            id="btn-linkedin"
+            onclick="window.location.href = 'https://www.linkedin.com/in/parikshit-gehlaut-612b1825b/';"
+          >
+            Contact Me
+          </button>
         </div>
         <div class="rightSection">
           <img src="bg-2.jpg" alt="Developer image" id="img" />
@@ -45,9 +61,10 @@
       </section>
 
       <hr />
-      <section class="secondSection">
+      <section class="secondSection" id="About">
+        <h1>About Me</h1>
         <span class="text-silver">What I have done so far,</span>
-        <h1>Programming Skills</h1>
+        <h2>Programming Skills</h2>
 
         <div class="box">
           <div class="vertical">
@@ -76,7 +93,7 @@
           </div>
           <div class="vertical">
             <img class="image-top" src="developer.png" alt="" />
-            <div class="vertical-title">React</div>
+            <div class="vertical-title">React Js</div>
             <div class="vertical-desc">
               Using React, I have made news website <b>"NewsMonkey"</b> which
               uses <i><b>api</b></i> to fetch really time news and text
